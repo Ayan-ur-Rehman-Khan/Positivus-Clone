@@ -71,37 +71,7 @@ body {
 
 
 
-.marquee {
-  width: 100%;
-  overflow-x:hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
-}
 
-.marquee::before {
-  content: attr(data-text);
-}
-
-.marquee {
-  display: inline-block;
-  animation: scroll-left 11s linear infinite;
-  font-size: 24px;
-  color: #fff;
-  background:white;
-  padding: 10px;
-  overflow: hidden;
-}
-
-/* Animation */
-@keyframes scroll-left {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(-90%);
-  }
-}
 
 .header{
     background-color: white;
